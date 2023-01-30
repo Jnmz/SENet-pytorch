@@ -125,7 +125,7 @@ if __name__ == "__main__":
     import argparse
 
     p = argparse.ArgumentParser()
-    p.add_argument("--epochs", type=int, default=200)
+    p.add_argument("--epochs", type=int, default=180)
     p.add_argument("--batch_size", type=int, default=64)
     p.add_argument("--lr", type=float, default=1e-1)
     p.add_argument("--num_classes", type=int, default=10)
