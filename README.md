@@ -29,3 +29,8 @@ The log file will be saved in the logs folder
  tensorboard --logdir=logs
 ```
 You can view the training process and results
+
+## some result
+|                  | ResNet20       | SE-ResNet20 (reduction 4 or 8)    |
+|:-------------    | :------------- | :------------- |
+|max. test accuracy|  92%           | 93%            |
