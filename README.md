@@ -34,4 +34,4 @@ You can view the training process and results
 
 |model             | ResNet20       | SE-ResNet20    |
 |:-------------    | :------------- | :------------- |
-|max  val accuracy |  92%           | 92.5%          |
+|max  val accuracy |  92.2%           | 92.5%          |
