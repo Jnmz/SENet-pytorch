@@ -31,6 +31,7 @@ The log file will be saved in the logs folder
 You can view the training process and results
 
 ## some result
-|                  | ResNet20       | SE-ResNet20 (reduction 4 or 8)    |
+
+|                  | ResNet20       | SE-ResNet20    |
 |:-------------    | :------------- | :------------- |
-|max. test accuracy|  92%           | 93%            |
+|max  val accuracy |  92%           | 93%            |
