@@ -111,13 +111,12 @@ def main():
                            {'train': train_loss, 'val': val_loss}, global_step=epoch)
         writer.add_scalars('acc',
                            {'train': train_accurate, 'val': val_accurate}, global_step=epoch)
-        # 保存断点
         checkpoint = {"model_state_dict": model.state_dict(),
                       "optimizer_state_dict": optimizer.state_dict(),
                       "epoch": epoch}
         path_checkpoint = "senet.pth"
         torch.save(checkpoint, path_checkpoint)
-        print("保存模型成功")
+        print("model saved")
     print('Finished Training')
     writer.close()
 
