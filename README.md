@@ -59,3 +59,12 @@ For testing the FastAPI server with a POST request, you can use the `post.py` sc
  python post.py
 ```
 This script makes a POST request to the /predict endpoint of your FastAPI application with a JSON payload. Make sure to modify the url and data variables to fit your application's needs.
+
+
+# Future Plans/To-Do
+- **Support Additional Inference Frameworks**: Integrate support for TensorRT, OpenVINO for optimized performance across various platforms.
+- **Explore Model Compression**: Implement techniques for model compression and quantization to facilitate deployment on edge devices.
+- **Performance Testing & Benchmarking**: Conduct detailed performance tests and benchmark comparisons to guide users on optimal configurations.
+- **Documentation & Examples**: Enhance documentation and add comprehensive usage examples to ease the adoption process.
+- **Community Engagement**: Establish a platform for community discussion, sharing best practices, and collaboration.
+
